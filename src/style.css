@@ -1,0 +1,42 @@
+.card-largura {
+ max-width: 18rem; /*largura máxima*/
+}
+
+.imagem-carrosel1 {
+  object-fit: cover;
+  /*propriedade que diz que o elemento deve se adequar ao container onde está inserido. NO caso a imagem vai se adequar a DIV pai, sem deformar a imagem*/
+  object-position: 0 80%;
+  /*move o objeto pelo eixo x e y*/
+  height: 400px;
+}
+
+.imagem-carrosel2 {
+  object-fit: cover;
+  /*propriedade que diz que o elemento deve se adequar ao container onde está inserido. NO caso a imagem vai se adequar a DIV pai, sem deformar a imagem*/
+  height: 400px;
+}
+
+.fonte-titulo {
+  font-family: 'Pacifico', cursive;
+}
+
+.cor-especial {
+  color: darkred!important;/*important dá prioridade ao CSS e permite que uma class subscreva outra*/
+}
+
+.botao-cor-especial {
+  background-color: darkred;
+  color: white;
+}
+
+.borda-cor-especial {
+  border-color: darkred;
+}
+
+.card-posicao-imagem {
+  object-fit: cover;
+  /*propriedade que diz que o elemento deve se adequar ao container onde está inserido. NO caso a imagem vai se adequar a DIV pai, sem deformar a imagem*/
+  /*object-position: 0 80%;
+  /*move o objeto pelo eixo x e y*/
+  height: 200px;
+}
